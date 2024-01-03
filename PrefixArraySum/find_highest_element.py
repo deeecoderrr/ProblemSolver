@@ -25,6 +25,8 @@
 # We added 100 at ‘a’ because this will add 100 to all elements while taking the prefix sum array. Subtracting 100
 # from ‘b+1’ will reverse the changes made by adding 100 to elements from ‘b’ onward.
 
+# Time Complexity: O(N + M), where N is the size of the array and M is the number of operations
+# Auxiliary Space: O(N)
 
 def find_highest(m, indexess):
     arr = [0] * 5
