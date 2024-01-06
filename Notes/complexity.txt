@@ -1,0 +1,4 @@
+
+Searching complexity :
+
+Binary Search - log m , where m is the number of elements
